@@ -1,5 +1,7 @@
 
-body{background-color: #333}
+body{
+    background-color: #333
+}
 
 li {
     float: left;
@@ -14,6 +16,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 4px;
+    padding-right: 10px;
 }
 li a:hover:not(.active) {
     background-color: #111;
