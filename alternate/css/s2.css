@@ -1,13 +1,10 @@
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-body {
+}body {
     margin: 0;
-}
-.navbar {
+}.navbar {
     padding: 0px;
 }
-
 ul.navbar {
     list-style-type: none;
     margin: 0;
@@ -17,24 +14,19 @@ ul.navbar {
     position: fixed;
     height: 100%;
     overflow: auto;
-}
-ul li.navbar a {
+}ul li.navbar a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-}
-  
+}  
 ul.navbar li a.active {
     background-color: #43bee4;
     color: white;
-}
-  
-ul li a:hover:not(.active) {
+}ul li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
-
 .progress {
     height: 3px;
     width: 0%;
@@ -43,13 +35,11 @@ ul li a:hover:not(.active) {
     top: 0;
     left: 0;
     animation: progress 1s linear;
-}
-@keyframes progress {
+}@keyframes progress {
     to {
         width: 100%;
     }
-}
-  
+xs}  
 body {
     padding: 0;
     margin: 0;
@@ -58,7 +48,6 @@ body {
     color: #f1f1f1;
     animation: body 1s linear;
 }
-
 @keyframes body {
     to {
         background-color: #777;
@@ -71,7 +60,6 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: both;
 }
-
 div img {
     width: 100%;
     border-radius: 4px;
@@ -82,30 +70,24 @@ div figcaption {
     padding: 6px;
     border-radius: 4px;
     font-size: 16px;
-}
-div figcaption i {
+}div figcaption i {
     font-size: 14px;
-}
-div figcaption a {
+}div figcaption a {
     text-decoration: none;
     font-size: 10px;
     color: rgba(51, 108, 169, 0.693)
-}
-@keyframes div figcaption {
+}@keyframes div figcaption {
     to {
         background-color: #333;
     }
 }
-
 body p {
     font-size: 18px;
 }
-
 .dropdown {
   float: left;
   overflow: hidden;
 }
-
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
@@ -116,11 +98,9 @@ body p {
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
-
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -130,19 +110,16 @@ body p {
   z-index: 1;
   padding: 5px;
 }
-
 ul li.dropdown {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
     width: 100%;
-}
-ul li.dropdown:hover {
+}ul li.dropdown:hover {
     background-color: #555;
     color: #fff;
 }
-
 .dropdown-content a {
   float: none;
   color: black;
@@ -151,11 +128,9 @@ ul li.dropdown:hover {
   display: block;
   text-align: left;
 }
-
 .dropdown-content a:hover {
   background-color: #ddd;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
