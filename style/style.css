@@ -1,0 +1,110 @@
+
+body{background-color: #333}
+
+li {
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li a {
+    display: block;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #2196F3;
+}
+#topbar_gradient_1 {
+    height: 25px;
+    background-color: #2196F3;
+    background-image: linear-gradient(#2196F3, #333);
+}
+#hovbox1 a {
+    display: inline-block;
+    border-radius: 25px;
+    height: 18px;
+    background-color: #333;
+    color: white;
+    border: 2px solid #333;
+    text-decoration: none;
+    text-align: center;
+}
+#hovbox1 a:hover:not(.active) {
+    height: 18px;
+    background-color: #111;
+    border: 2px solid #2196F3;
+}
+
+#ptag1 {
+    float: bottom;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#ptag1 a {
+    height: 18px;
+    display: block;
+    color: white;
+    background-color: #111;
+    text-align: left;
+    padding: 16px 16px;
+    text-decoration: none;
+    border: 5px solid #333
+}
+#ptag1 a:hover:not(.active) {
+    height: 18px;
+    background-color: #111;
+    border: 5px solid #2196F3;
+}
+
+#topbar_full_blue {
+    height: 8px;
+    background-color: #2196F3;
+}
+#topbar_full_grey {
+    height: 8px;
+    background-color: #333;
+}
+#topbar_full_dgrey {
+    height: 8px;
+    background-color: #111;
+}
+
+/* TOP BAR */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #111;
+    color: white;
+}
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+  
