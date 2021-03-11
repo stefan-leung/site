@@ -14,7 +14,8 @@ ul.navbar {
     position: fixed;
     height: 100%;
     overflow: auto;
-}ul li.navbar a {
+}
+ul li.navbar a {
     display: block;
     color: #000;
     padding: 8px 16px;
@@ -23,7 +24,8 @@ ul.navbar {
 ul.navbar li a.active {
     background-color: #43bee4;
     color: white;
-}ul li a:hover:not(.active) {
+}
+ul li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
@@ -63,6 +65,7 @@ body {
 div img {
     width: 100%;
     border-radius: 4px;
+    background-color: #f1f1f1;
 }
 div figcaption {
     text-align: center;
