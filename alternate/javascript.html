@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
     <head>
-        <title>Python</title>
+        <title>Javascript</title>
         <link rel="stylesheet" href="./css/s2.css">
         <script type="text/javascript" src="js/spinonscroll.js"></script>
     </head>
@@ -24,24 +24,35 @@
                     <a href="./tokyo.html">Tokyo</a>
                 </div>
             </li>
+            <div class="btn"><input class="Dark" type="submit" value="Dark Mode"></div>
         </ul>
         <div class="progress"></div>
         <div style="margin-left:25%; padding:1px 16px; height:1000px;"><br>
-            <h1>Python</h1>
-            <img style="width: 40%;" src="google.com">
-            <figcaption style="width: 38.7%;">
-                Wah
-                <br>
-                <i>
-                    Logo Javascript
-                    <a href="https://google.com/" target="_blank">[1]</a>
-                </i>
-            </figcaption>
-            <p>
-                :O
-            </p>
-            <h2>
-            </h2>
+            <h1>Javascript</h1>
+            <section class="container" class="input">
+                <form id="my-form" class="input">
+                    <div class="msg"></div>
+                    <div class="input">
+                        <label for="name">Name:
+                        <input type="text" id="name"></label>
+                    </div>
+                    <div class="input">
+                        <label for="email">Email:
+                        <input type="text" id="email"></label>
+                    </div>
+                    <div class="btn"><input class="btn" type="submit" value="Submit"></div>
+                </form>
+
+                <ul id="users"></ul>
+
+                <!-- <ul class="items">
+                    <li class="item">Item 1</li>
+                    <li class="item">Item 2</li>
+                    <li class="item">Item 3</li>
+                </ul>-->
+            </section>
+
+            <script src="js/javascript.js"></script>
         </div>
     </body>
 </html>

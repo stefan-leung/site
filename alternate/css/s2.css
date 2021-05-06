@@ -1,8 +1,10 @@
-html{
+html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}body {
+}
+body {
     margin: 0;
-}.navbar {
+}
+.navbar {
     padding: 0px;
 }
 ul.navbar {
@@ -37,11 +39,12 @@ ul li a:hover:not(.active) {
     top: 0;
     left: 0;
     animation: progress 1s linear;
-}@keyframes progress {
+}
+@keyframes progress {
     to {
         width: 100%;
     }
-xs}  
+}  
 body {
     padding: 0;
     margin: 0;
@@ -73,13 +76,16 @@ div figcaption {
     padding: 6px;
     border-radius: 4px;
     font-size: 16px;
-}div figcaption i {
+}
+div figcaption i {
     font-size: 14px;
-}div figcaption a {
+}
+div figcaption a {
     text-decoration: none;
     font-size: 10px;
     color: rgba(51, 108, 169, 0.693)
-}@keyframes div figcaption {
+}
+@keyframes div figcaption {
     to {
         background-color: #333;
     }
@@ -136,4 +142,33 @@ ul li.dropdown {
 }
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.input {
+    text-align: center;
+}
+form.input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #999;
+    border-radius: 5px;
+}
+form div label.input {
+    text-decoration: none;
+}
+form div.btn {
+    display: block;
+    margin: 5px 0;
+}
+form div input.btn {
+    color: #f1f1f1;
+    background-color: #555;
+    border-radius: 3px;
+    border-color: #555;
+    text-decoration: none;
+    box-decoration-break: slice;
+    width: 250px;
+}
+form div.input {
+    padding: 3px;
 }
