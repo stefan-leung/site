@@ -1,26 +1,90 @@
-<html style="background-color: #333">
+<!DOCTYPE html>
+<html>
     <head>
-        <title>
-            Ss: Home
-        </title>
-        <link rel="stylesheet" href="style/style.css">
-        <link rel="icon" type="image/png" href="./image/aery.png">
+        <title>Test</title>
+
+        <link rel="stylesheet" href="index.css">
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="topnav">
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="sf_1.html">San Francisco</a></li>
-                <li><a href="lycee_1.html">Lelycée</a></li>
-                <li><a href="coding_1.html">Coding</a></li>
-                <li><a href="other_1.html">Other</a></li>
-                <li><a href="alternate/index2.html">Second Page</a></li>
-            </ul>
+        <script>
+            AOS.init();
+        </script>
+
+        <div class="img-a">
+            <div id="gradient">
+            <div class="centered">
+                <h1 data-aos="fade-up" style="color: var(--main-color);">Title</h1>
+                <p data-aos="fade-up" data-aos-delay="500" style="color: var(--main-color);">subtitle</p>
+            </div>
         </div>
-        <div id="topbar_full_blue"></div>
-        <h1 style="color:white">
-            Site Stefan: Home
-        </h1>
-        <a href="alternate/index2.html" id="ptag1">Go to NEW</a>
+
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#download">Download</a></li>
+            <li style="float:right"><a class="active" href="#about">About</a></li>
+        </ul>
+
+        <br><br><br>
+        
+        <div id="home" class="textcontainer">
+            <h1>Welcome!</h1>
+            <p data-aos="fade-up">
+                DESCRIPTION pt.1!
+            </p>
+            <p data-aos="fade-up">
+                DESCRIPTION pt.2!
+            </p><br><br>
+        </div><br><br>
+
+        <div id="news" class="textcontainer">
+            <h1>News</h1>
+
+            <div data-aos="fade-up" class="newcontainer">
+                <i>5/1/2021</i><br>
+                TOP NEWS!
+            </div><br>
+
+            <div id="othernews">
+
+                <div data-aos="fade-up" class="newcontainer dropdown">
+                    <i>4/30/2021</i><br>
+                    <div class="dropdown-content">
+                        NEWS
+                    </div>
+                </div>
+                
+                <br><br>
+
+                <div data-aos="fade-up" class="newcontainer dropdown">
+                    <i>4/29/2021</i><br>
+                    <div class="dropdown-content">
+                        MORE NEWS
+                    </div>
+                </div>
+                
+                <br><br>
+            </div>
+            
+        </div><br><br>
+
+        <div id="download" class="textcontainer">
+            <h1>Download</h1>
+            <div data-aos="fade-up">
+                <p>Download the thing here.</p>
+                <a href="">
+                    Example Download Link
+                </a>
+            </div>
+        </div><br><br><br><br><br><br><br><br>
+
+        <div id="bottom" class="footer">
+            <h3>e</h3>
+        </div>
     </body>
 </html>
